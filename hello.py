@@ -9,5 +9,3 @@ def home():
 @app.errorhandler(500)
 def internal_error(error):
     return "500"
-
-app.run()
